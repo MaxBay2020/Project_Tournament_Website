@@ -20,4 +20,10 @@ router.post('/modifyTournament/', userCtrl.doModifyTournament)
 /*GET /users/deleteTournament  delete selected tournament*/
 router.get('/deleteTournament/:_Id', userCtrl.deleteTournament)
 
+/*GET render login page*/
+router.get('/login', userCtrl.showLogin)
+
+/*GET render register page*/
+router.get('/register', userCtrl.showRegister)
+
 module.exports = router;

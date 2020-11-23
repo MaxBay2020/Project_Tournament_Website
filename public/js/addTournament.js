@@ -18,8 +18,8 @@ $('#addBtn').click(()=>{
         if(data==='1'){
             //add successfully
             spop({
-                template: 'Position top left',
-                position  : 'Yah! You have created a tournament!',
+                template: 'Yah! You have created a tournament!',
+                position  : 'Position top left',
                 style: 'success',
                 autoclose: 2000
             })

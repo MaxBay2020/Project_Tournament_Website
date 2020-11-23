@@ -102,3 +102,21 @@ exports.deleteTournament = (req,res) => {
         })
     })
 }
+
+/**
+ * Show login form
+ */
+exports.showLogin = (req,res) => {
+    return res.render('home', {
+        show: 'login'
+    })
+}
+
+/**
+* Show register form
+* */
+exports.showRegister = (req,res) => {
+    return res.render('home', {
+        show: 'register'
+    })
+}
